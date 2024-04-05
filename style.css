@@ -1,6 +1,6 @@
 header{
-    background-color: #97F813;
-    color: white;
+    background-color: #ff0000;
+    color: rgb(0, 0, 0);
 }
 
 
@@ -13,7 +13,7 @@ header{
 
 
 .cabecalho{
-    background-color: #97F813;
+    background-color: rgb(255, 255, 255);
     color: white;
 }
 

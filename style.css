@@ -1,88 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tênis Mania</title>
+    <style>
+        /* Estilos globais e reset */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff; /* Fundo branco para o corpo */
+            color: #4a4a4a;
+        }
 
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f8ff; 
-    color: #333;
-}
+        /* Cabeçalho com fundo roxo e cor de texto branco */
+        header {
+            background-color: #8a2be2; /* Roxo vibrante */
+            color: #ffffff;
+            padding: 20px 10px;
+            text-align: center;
+        }
 
+        /* Estilização da navegação */
+        nav {
+            background-color: #9932cc; /* Um roxo mais suave */
+            padding: 10px 0;
+            text-align: center;
+        }
 
-header {
-    background-color: #6a0dad; 
-    color: #ffffff;
-    padding: 20px 10px;
-    text-align: center;
-}
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
 
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
 
-nav {
-    background: #7d26cd; 
-    padding: 10px 0;
-    text-align: center;
-}
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+        }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}Mundo dos Tênis
+        nav a:hover {
+            color: #dddddd; /* Efeito de hover claro */
+        }
 
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
+        /* Estilização das seções para clareza e contraste */
+        section {
+            background-color: #ffffff; /* Fundo branco para as seções */
+            margin: 20px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil para dar profundidade */
+        }
 
+        /* Estilização de rodapé */
+        footer {
+            background-color: #8a2be2; /* Mesmo roxo do cabeçalho */
+            color: #ffffff;
+            text-align: center;
+            padding: 20px 10px;
+        }
 
-nav a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 18px;
-}
-
-nav a:hover {
-    text-decoration
-    background-color: #0c8dd8c0;
-    color: rgb(0, 0, 0);
-}
-
-
-.logotipo{
-    width: 120px;
-    position: relative;
-    top: 20px;
-….cabecalho-lista{
-    display: flex;
-    position: relative;
-    left: 300px;
-
-
-}
-
-
-: underline;
-}
-
-
-section {
-    margin: 20px;
-    padding: 20px;
-    background-color: white; 
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
-}
-
-
-footer {
-    text-align: center;
-    padding: 10px 20px;
-    background-color: #6a0dad; 
-    color: white;
-}
-
-@media (max-width: 600px) {
-    nav ul li {
-        display: block; 
-        margin: 10px 0;
-    }
-}
+        /* Responsividade: ajustes para dispositivos móveis */
+        @media (max-width: 600px) {
+            nav ul li {
+                display: block; /* Em telas menores, itens de navegação em linhas separadas */
+                text-align: center;
+                margin-top: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tênis Mania</h1>
+        <p>Seu guia definitivo em calçados esportivos</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#novidades">Novidades</a></li>
+            <li><a href="#maisvendidos">Mais Vendidos</a></li>
+            <li><a href="#ofertas">Ofertas</a></li>
+        </ul>
+    </nav>
+    <section id="novidades">
+        <h2>Novidades</h2>
+        <p>Descubra os lançamentos mais recentes e inovadores no mundo dos tênis esportivos.</p>
+    </section>
+    <section id="maisvendidos">
+        <h2>Mais Vendidos</h2>
+        <p>Confira os modelos de tênis que estão fazendo sucesso entre nossos clientes.</p>
+    </section>
+    <section id="ofertas">
+        <h2>Ofertas</h2>
+        <p>Aproveite as melhores ofertas e descontos especiais em diversos modelos.</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Tênis Mania. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

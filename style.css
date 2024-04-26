@@ -1,4 +1,48 @@
-header{
+Faz/* Reset básico para o corpo e fontes */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8ff; /* Cor de fundo quase branca para o corpo do site */
+    color: #333;
+}
+
+/* Estilização do cabeçalho com cor roxa */
+header {
+    background-color: #6a0dad; /* Roxo escuro */
+    color: #ffffff;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+/* Estilização da barra de navegação com um tom de roxo mais claro */
+nav {
+    background: #7d26cd; /* Roxo médio */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Links da navegação em branco com efeito ao passar o mouse */
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration
     background-color: #0c8dd8c0;
     color: rgb(0, 0, 0);
 }
@@ -8,17 +52,7 @@ header{
     width: 120px;
     position: relative;
     top: 20px;
-    left: 20px;
-}
-
-
-.cabecalho{
-    background-color: rgb(255, 255, 255);
-    color: white;
-}
-
-
-.cabecalho-lista{
+….cabecalho-lista{
     display: flex;
     position: relative;
     left: 300px;
@@ -27,3 +61,29 @@ header{
 }
 
 
+: underline;
+}
+
+/* Estilização das seções do site */
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white; /* Seções com fundo branco para contraste */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil para as seções */
+}
+
+/* Estilização do rodapé com o mesmo tom de roxo do cabeçalho */
+footer {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #6a0dad; /* Roxo escuro */
+    color: white;
+}
+
+/* Resposta para telas menores: ajustes para navegação */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block; /* Cada item em sua própria linha em telas pequenas */
+        margin: 10px 0;
+    }
+}

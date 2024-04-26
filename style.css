@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tênis Mania</title>
     <style>
         /* Estilos globais e reset */
         body {
@@ -75,34 +72,3 @@
                 margin-top: 10px;
             }
         }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Tênis Mania</h1>
-        <p>Seu guia definitivo em calçados esportivos</p>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#novidades">Novidades</a></li>
-            <li><a href="#maisvendidos">Mais Vendidos</a></li>
-            <li><a href="#ofertas">Ofertas</a></li>
-        </ul>
-    </nav>
-    <section id="novidades">
-        <h2>Novidades</h2>
-        <p>Descubra os lançamentos mais recentes e inovadores no mundo dos tênis esportivos.</p>
-    </section>
-    <section id="maisvendidos">
-        <h2>Mais Vendidos</h2>
-        <p>Confira os modelos de tênis que estão fazendo sucesso entre nossos clientes.</p>
-    </section>
-    <section id="ofertas">
-        <h2>Ofertas</h2>
-        <p>Aproveite as melhores ofertas e descontos especiais em diversos modelos.</p>
-    </section>
-    <footer>
-        <p>&copy; 2024 Tênis Mania. Todos os direitos reservados.</p>
-    </footer>
-</body>
-</html>

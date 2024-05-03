@@ -1,27 +1,22 @@
-header{
-    background-color: #a413f8;
+header {
+    background-color: #ffffff;
     color: white;
 }
 
-
-.logotipo{
-    width: 20px;
+.logotipo {
+    width: 120px;
     position: relative;
     top: 20px;
     left: 20px;
 }
 
-
-.cabecalho{
-    background-color: #a413f8;
+.cabecalho {
+    background-color: #d213f8;
     color: white;
 }
 
-
-.cabecalho-lista{
+.cabecalho-lista {
     display: flex;
     position: relative;
     left: 300px;
-
-
 }

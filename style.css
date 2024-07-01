@@ -20,3 +20,6 @@ header {
     position: relative;
     left: 300px;
 }
+
+body {
+    background-color: blue;
